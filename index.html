@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+  <title>NEUROGX Mobile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="mobileApp" class="mobile-container gradient-bg">
+    <div class="notch"></div>
+    <div class="logo">NEUROGX</div>
+    <div class="hero-wrapper">
+      <img src="hero.jpg" alt="AI VR Woman" class="hero-img" />
+    </div>
+    <div class="title">
+      <span>AI-DRIVEN</span>
+      <span>LEARNING,</span>
+    </div>
+    <div class="subtitle">Tailored to You.</div>
+    <button class="sync-btn" id="syncNowBtn">
+      <span class="arrow left"></span>
+      SYNC NOW
+      <span class="arrow right"></span>
+    </button>
+  </div>
+
+  <div id="syncPage" class="mobile-container gradient-bg sync-page" style="display:none;">
+    <div class="notch"></div>
+    <div class="logo">NEUROGX</div>
+    <div class="sync-content">
+      <h2>Syncing...</h2>
+      <div class="spinner"></div>
+      <p>Your personalized AI learning profile is being prepared.</p>
+      <button class="back-btn" id="backBtn">&larr; Back</button>
+    </div>
+  </div>
+
+  <div id="notMobile" class="not-mobile" style="display:none;">
+    <h1>Mobile Only</h1>
+    <p>This site is only available on mobile devices.</p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
