@@ -28,11 +28,50 @@
   <div id="syncPage" class="mobile-container gradient-bg sync-page" style="display:none;">
     <div class="notch"></div>
     <div class="logo">NEUROGX</div>
-    <div class="sync-content">
+    <div class="sync-content" id="syncContent">
       <h2>Syncing...</h2>
       <div class="spinner"></div>
       <p>Your personalized AI learning profile is being prepared.</p>
       <button class="back-btn" id="backBtn">&larr; Back</button>
+    </div>
+  </div>
+
+  <!-- Supplementary Page: Synced Success -->
+  <div id="successPage" class="mobile-container gradient-bg success-page" style="display:none;">
+    <div class="notch"></div>
+    <div class="logo">NEUROGX</div>
+    <div class="success-content">
+      <div class="success-icon">&#10003;</div>
+      <h2>You're Synced!</h2>
+      <p>Welcome to your AI-driven learning journey.<br />Get started below.</p>
+      <button class="explore-btn" id="exploreBtn">Explore Dashboard</button>
+    </div>
+  </div>
+
+  <!-- Supplementary Page: Dashboard -->
+  <div id="dashboardPage" class="mobile-container gradient-bg dashboard-page" style="display:none;">
+    <div class="notch"></div>
+    <div class="logo">NEUROGX</div>
+    <div class="dashboard-content">
+      <h2>Your Dashboard</h2>
+      <div class="card-list">
+        <div class="card">
+          <div class="card-title">My Courses</div>
+          <div class="card-desc">Continue your personalized AI courses.</div>
+          <button class="card-btn">View</button>
+        </div>
+        <div class="card">
+          <div class="card-title">Progress</div>
+          <div class="card-desc">Track your AI learning achievements.</div>
+          <button class="card-btn">Track</button>
+        </div>
+        <div class="card">
+          <div class="card-title">Settings</div>
+          <div class="card-desc">Adjust your learning preferences.</div>
+          <button class="card-btn">Edit</button>
+        </div>
+      </div>
+      <button class="logout-btn" id="logoutBtn">Logout</button>
     </div>
   </div>
 
